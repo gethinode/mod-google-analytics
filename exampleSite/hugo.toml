@@ -24,7 +24,7 @@ title = 'Test site for mod-google-analytics'
   [[module.imports]]
     path = "github.com/gethinode/mod-google-analytics"
   [[module.imports.mounts]]
-    source = "assets/js/modules/google-analytics/google-analytics.js"
-    target = "assets/js/google-analytics.js"
+    source = "assets/js/modules/googleanalytics/googleanalytics.js"
+    target = "assets/js/googleanalytics.js"
   [[module.imports]]
     path = "github.com/gethinode/mod-utils/v2"

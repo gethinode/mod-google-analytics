@@ -40,6 +40,9 @@ This module uses [semantic-release][semantic-release] to automate the release of
 
 ## Configuration
 
+> [!NOTE]
+> By convention, Hinode uses kebab case as naming convention for module names. However, the module name in the site parameters is renamed to `GoogleAnalytics` to align with Hugo's privacy settings.
+
 Set you `G-tag` in your site configuration (usually `hugo.toml`) in the following section:
 
 ```toml
