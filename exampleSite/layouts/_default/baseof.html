@@ -11,4 +11,14 @@
 
 {{ end }}
 </body>
+{{- $bundle := partial "utilities/bundle" (dict
+    "match" "{js/*.js,js/vendor/**.js}"
+    "filename" "js/main.bundle.js"
+    "basepath" "js/modules"
+    "all" true
+    "debugging" site.Params.debugging.showJS
+) -}}
+
+{{- $js := $bundle | resources.ExecuteAsTemplate "js/analytics.js" . -}}
+<script src="{{ $js.RelPermalink }}"></script>
 </html>
