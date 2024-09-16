@@ -4,11 +4,15 @@
     min = "0.110.0"
     max = ""
   [[module.mounts]]
-    source = 'layouts'
-    target = 'layouts'
-  [[module.mounts]]
     source = 'assets'
     target = 'assets'
-  [[module.mounts]]
-    source = 'static'
-    target = 'static'
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = false
+
+[params.modules.GoogleAnalytics]
+  integration = "core"
+  state = "async"
+  category = "analytics"

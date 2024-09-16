@@ -1,7 +1,5 @@
 ---
 title: Test site
-description: Site to test module shortcode(s).
-date: 2023-07-10
+description: Site to test mod-google-analytics.
+date: 2024-09-16
 ---
-
-TODO: placeholder
