@@ -1,6 +1,6 @@
 {
   "name": "@gethinode/mod-google-analytics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Hugo module to add Google Analytics to your Hinode site",
   "keywords": [
     "hugo",
