@@ -12,21 +12,6 @@ title = 'Test site for mod-google-analytics'
 [params.modules.GoogleAnalytics]
   local = true
 
-[params.modules.GoogleAnalytics.csp]
-  script-src = [
-      "*.google-analytics.com",
-      "*.googletagmanager.com"
-  ]
-  connect-src = [
-      "*.google-analytics.com",
-      "*.analytics.google.com",
-      "*.googletagmanager.com"
-  ]
-  img-src = [
-      "*.google-analytics.com",
-      "*.googletagmanager.com"
-  ]
-
 [module]
   # Build and serve using local mod-google-analytics clone declared in the named Hugo workspace:
   workspace = "mod-google-analytics.work"
