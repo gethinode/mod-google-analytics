@@ -10,7 +10,7 @@ title = 'Test site for mod-google-analytics'
     showJS = true
 
 [params.modules.GoogleAnalytics]
-  local = true
+  force = true
 
 [module]
   # Build and serve using local mod-google-analytics clone declared in the named Hugo workspace:
