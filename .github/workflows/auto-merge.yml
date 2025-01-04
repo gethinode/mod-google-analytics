@@ -42,8 +42,8 @@ jobs:
   review-mod-update-pr:
     runs-on: ubuntu-latest
     steps:
-      - name: Capture PR author
+      - name: Capture PR title
         run: |
-          echo $LOGIN
+          echo $TITLE
         env:
-          LOGIN: ${{github.event.pull_request.user.login}}
+          TITLE: ${{github.event.pull_request.title}}
