@@ -38,3 +38,12 @@ jobs:
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  review-mod-update-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Capture PR author
+        run: |
+          echo $LOGIN
+        env:
+          LOGIN: ${{github.event.pull_request.user.login}}
