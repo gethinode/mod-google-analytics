@@ -2,9 +2,6 @@
 
 {{- if or site.Params.modules.GoogleAnalytics.force (and (not hugo.IsServer) (not site.Config.Privacy.GoogleAnalytics.Disable)) -}}
   {{- with site.Config.Services.GoogleAnalytics.ID -}}
-    {{- if strings.HasPrefix (lower .) "ua-" -}}
-      {{- warnf "Google Analytics 4 (GA4) replaced Google Universal Analytics (UA) effective 1 July 2023. See https://support.google.com/analytics/answer/11583528. Create a GA4 property and data stream, then replace the Google Analytics ID in your site configuration with the new value." -}}
-    {{- else -}}
 var doNotTrack = false;
 if ({{ site.Config.Privacy.GoogleAnalytics.RespectDoNotTrack }}) {
   var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
@@ -12,7 +9,7 @@ if ({{ site.Config.Privacy.GoogleAnalytics.RespectDoNotTrack }}) {
 }
 if (!doNotTrack) {
   const script = document.createElement("script");
-  script.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id={{ upper (site.Config.Services.GoogleAnalytics.ID | urlize) }}");
+  script.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id={{ upper (. | urlize) }}");
   document.body.appendChild(script);
 
   window.dataLayer = window.dataLayer || [];
@@ -20,6 +17,5 @@ if (!doNotTrack) {
   gtag('js', new Date());
   gtag('config', '{{ upper . }}');
 }
-    {{- end -}}
   {{- end -}}
 {{- end -}}

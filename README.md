@@ -32,7 +32,7 @@
 
 ![Logo](https://raw.githubusercontent.com/gethinode/hinode/main/static/img/logo.png)
 
-Hinode is a clean blog theme for [Hugo][hugo], an open-source static site generator. Hinode is available as a [template][repository_template], and a [main theme][repository]. This repository maintains a Hugo module to enable [Google Analytics][google-analytics], part of the Google Marketing Platform, to a Hinode site. Visit the Hinode documentation site for [installation instructions][hinode_docs].
+Hinode is a clean blog theme for [Hugo][hugo], an open-source static site generator. Hinode is available as a [template][repository_template], and a [main theme][repository]. This repository maintains a Hugo module to enable [Google Analytics][google-analytics], part of the Google Marketing Platform, for a Hinode site. Visit the Hinode documentation site for [installation instructions][hinode_docs].
 
 ## Contributing
 
