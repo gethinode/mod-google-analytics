@@ -18,18 +18,23 @@
   state = "async"
   category = "analytics"
   gcm = false
+  nonce = false
 
 # use the following setings when using Google Consent Mode v2
 # [params.modules.GoogleAnalytics]
-#   integration = "critical" # set to critical when using Google Consent Mode v2
+#   integration = "critical" 
 #   state = "immediate"
 #   category = "necessary"
 #   gcm = true
+#   nonce = true # to use nonce-aware Tag Manager
 
 [params.modules.GoogleAnalytics.csp]
   script-src = [
       "*.google-analytics.com",
-      "*.googletagmanager.com"
+      "*.googletagmanager.com",
+      "*.analytics.google.com",
+      "googletagmanager.com",
+      "tagmanager.google.com"
   ]
   connect-src = [
       "*.analytics.google.com",
@@ -42,5 +47,17 @@
   ]
   img-src = [
       "*.google-analytics.com",
-      "*.googletagmanager.com"
+      "*.googletagmanager.com",
+      "googletagmanager.com",
+      "ssl.gstatic.com",
+      "www.gstatic.com"
+  ]
+  style-src = [
+      "googletagmanager.com",
+      "tagmanager.google.com",
+      "fonts.googleapis.com"
+  ]
+  font-src = [
+    "fonts.gstatic.com",
+    "data:"
   ]
