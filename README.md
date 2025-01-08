@@ -65,6 +65,22 @@ This module supports the following parameters (see the section `params.modules` 
 | Setting                   | Default | Description |
 |---------------------------|---------|-------------|
 | GoogleAnalytics.force     | false   | Trigger to force include the analytics scripts, bypassing other settings. Use this setting for debugging and testing only. |
+| GoogleAnalytics.gcm       | false   | Trigger to enable Google Consent Mode v2 (advanced mode). |
+
+## Google Consent Mode v2
+
+This module supports Google Consent Mode v2. Use the following parameters in your site configuration to enable this.
+
+> [!WARNING]
+> Make sure you have properly configured Cookie Consent before enabling GCMv2.
+
+```toml
+[params.modules.GoogleAnalytics]
+  integration = "critical"
+  state = "immediate"
+  category = "necessary"
+  gcm = true
+```
 
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io
