@@ -66,6 +66,7 @@ This module supports the following parameters (see the section `params.modules` 
 |---------------------------|---------|-------------|
 | GoogleAnalytics.force     | false   | Trigger to force include the analytics scripts, bypassing other settings. Use this setting for debugging and testing only. |
 | GoogleAnalytics.gcm       | false   | Trigger to enable Google Consent Mode v2 (advanced mode). |
+| GoogleAnalytics.nonce     | false   | Trigger to pass nonces to tag manager, only applicable when GCM is enabled. See [Google documentation][google-csp] for more details. |
 
 ## Google Consent Mode v2
 
@@ -80,12 +81,19 @@ This module supports Google Consent Mode v2. Use the following parameters in you
   state = "immediate"
   category = "necessary"
   gcm = true
+  nonce = false
 ```
+
+## Content Security Policy
+
+The module includes the policies required for Google Tag Manager's Preview Mode and Google Analytics 4. Review [Google's Content Security Policy][google-csp] to review the settings required for Google Ads, Google Ads User Data Beacon, Floodlight, and Service Worker.
+
 
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io
 [hinode_docs]: https://gethinode.com
 [google-analytics]: https://marketingplatform.google.com
+[google-csp]: https://developers.google.com/tag-platform/security/guides/csp
 [repository]: https://github.com/gethinode/hinode.git
 [repository_template]: https://github.com/gethinode/template.git
 [conventionalcommits]: https://www.conventionalcommits.org

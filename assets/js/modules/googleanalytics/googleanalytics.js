@@ -32,6 +32,10 @@ gtag("set", "url_passthrough", true);
       dl = l != 'dataLayer' ? '&l=' + l : ''
   j.async = true
   j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+  {{ if site.Params.modules.GoogleAnalytics.nonce }}
+  var n = d.querySelector('[nonce]')
+  n && j.setAttribute('nonce', n.nonce || n.getAttribute('nonce'))
+  {{ end }}
   f.parentNode.insertBefore(j, f)
 })(window, document, 'script', 'dataLayer', '{{ upper (. | urlize) }}')
 {{ else }}
