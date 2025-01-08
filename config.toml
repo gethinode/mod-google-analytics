@@ -23,8 +23,12 @@
       "*.googletagmanager.com"
   ]
   connect-src = [
-      "*.google-analytics.com",
       "*.analytics.google.com",
+      "*.google.com",
+      "*.google-analytics.com",
+      "*.googletagmanager.com"
+  ]
+  frame-src = [
       "*.googletagmanager.com"
   ]
   img-src = [
