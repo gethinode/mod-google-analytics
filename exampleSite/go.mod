@@ -4,5 +4,5 @@ go 1.19
 
 require (
 	github.com/gethinode/mod-google-analytics v1.3.2 // indirect
-	github.com/gethinode/mod-utils/v4 v4.8.4 // indirect
+	github.com/gethinode/mod-utils/v4 v4.9.2 // indirect
 )
