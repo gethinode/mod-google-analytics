@@ -26,6 +26,8 @@ github.com/gethinode/mod-google-analytics v1.3.2 h1:W4caxWkSor/BFfOEGDDMp+7RajO/
 github.com/gethinode/mod-google-analytics v1.3.2/go.mod h1:dl628cFozpCvoIMCiV7ujzQipjxcm3eatXrSfLPWNII=
 github.com/gethinode/mod-google-analytics v1.3.3 h1:iX2FtXajykfHWJf7MXCQmpezqXgQUADNTeglU81QKpw=
 github.com/gethinode/mod-google-analytics v1.3.3/go.mod h1:dl628cFozpCvoIMCiV7ujzQipjxcm3eatXrSfLPWNII=
+github.com/gethinode/mod-google-analytics/v2 v2.0.0 h1:Vor4j56qtpjtKY9r5QLeN5CBxuf8YKP3+XvQKEkayrM=
+github.com/gethinode/mod-google-analytics/v2 v2.0.0/go.mod h1:y4ZlacA8FSXjmvn9P8cZshOrBB5Wc+3p0DKSehkk+8E=
 github.com/gethinode/mod-utils/v2 v2.8.0 h1:BdB+onItuO29g5ZLEz/HEwq9c4xBEM4GGqQc3kQ++js=
 github.com/gethinode/mod-utils/v2 v2.8.0/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
 github.com/gethinode/mod-utils/v2 v2.8.1 h1:u7sFbgJ5sBEMYC/GwcMRyjRAd5NxTjBnbld5b0V5n98=
