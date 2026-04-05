@@ -1,6 +1,5 @@
-// Adapted from https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics.html
-
 {{- if or site.Params.modules.GoogleAnalytics.force (and (not hugo.IsServer) (not site.Config.Privacy.GoogleAnalytics.Disable)) -}}
+// Adapted from https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics.html
   {{- with site.Config.Services.GoogleAnalytics.ID -}}
     {{- if site.Params.modules.GoogleAnalytics.gcm }}
 
