@@ -32,6 +32,8 @@ github.com/gethinode/mod-google-analytics/v2 v2.0.1 h1:WNI8e06Bl1pLYrt1Adwuk4KtU
 github.com/gethinode/mod-google-analytics/v2 v2.0.1/go.mod h1:y4ZlacA8FSXjmvn9P8cZshOrBB5Wc+3p0DKSehkk+8E=
 github.com/gethinode/mod-google-analytics/v2 v2.0.2 h1:vFmgWs5UVsxT3iHjLuQKefdlLIjwaBTvUfpPI3/FLKo=
 github.com/gethinode/mod-google-analytics/v2 v2.0.2/go.mod h1:y4ZlacA8FSXjmvn9P8cZshOrBB5Wc+3p0DKSehkk+8E=
+github.com/gethinode/mod-google-analytics/v2 v2.0.3 h1:G2uwsOmgpjNA0Zcftvzlz++qXCFb5DMn5e54H3GZnUA=
+github.com/gethinode/mod-google-analytics/v2 v2.0.3/go.mod h1:y4ZlacA8FSXjmvn9P8cZshOrBB5Wc+3p0DKSehkk+8E=
 github.com/gethinode/mod-utils/v2 v2.8.0 h1:BdB+onItuO29g5ZLEz/HEwq9c4xBEM4GGqQc3kQ++js=
 github.com/gethinode/mod-utils/v2 v2.8.0/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
 github.com/gethinode/mod-utils/v2 v2.8.1 h1:u7sFbgJ5sBEMYC/GwcMRyjRAd5NxTjBnbld5b0V5n98=
@@ -162,3 +164,5 @@ github.com/gethinode/mod-utils/v5 v5.23.2 h1:d89TkxTYeOVFdOpCtESmnXE7hQs53zxCwAI
 github.com/gethinode/mod-utils/v5 v5.23.2/go.mod h1:PwQN4oOjA6k/vet11JueJ9asZMgL0DBa3jyS9tPkBWU=
 github.com/gethinode/mod-utils/v5 v5.23.3 h1:ifcDyTYpmM6HBzc6SbpG+hJMSCfGTZKf/plgjVW2qZ4=
 github.com/gethinode/mod-utils/v5 v5.23.3/go.mod h1:PwQN4oOjA6k/vet11JueJ9asZMgL0DBa3jyS9tPkBWU=
+github.com/gethinode/mod-utils/v5 v5.23.4 h1:/lcKi1MJ2srGfNhCPtdnTRpQgdh2FNBRUAS7Ysz1W34=
+github.com/gethinode/mod-utils/v5 v5.23.4/go.mod h1:PwQN4oOjA6k/vet11JueJ9asZMgL0DBa3jyS9tPkBWU=
