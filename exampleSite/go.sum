@@ -40,6 +40,8 @@ github.com/gethinode/mod-google-analytics/v2 v2.0.5 h1:J9c0HuOnCEdDpJobe+FOegBI/
 github.com/gethinode/mod-google-analytics/v2 v2.0.5/go.mod h1:y4ZlacA8FSXjmvn9P8cZshOrBB5Wc+3p0DKSehkk+8E=
 github.com/gethinode/mod-google-analytics/v2 v2.0.6 h1:BhUn4NlNkZV6eo2GCgQa+Ws8bvyNT35NTPeB+7p51wo=
 github.com/gethinode/mod-google-analytics/v2 v2.0.6/go.mod h1:y4ZlacA8FSXjmvn9P8cZshOrBB5Wc+3p0DKSehkk+8E=
+github.com/gethinode/mod-google-analytics/v2 v2.0.7 h1:Nd9a/YouEDWCgP202m+FARfkt6dIJtTe4QGE+qXhE2w=
+github.com/gethinode/mod-google-analytics/v2 v2.0.7/go.mod h1:y4ZlacA8FSXjmvn9P8cZshOrBB5Wc+3p0DKSehkk+8E=
 github.com/gethinode/mod-utils/v2 v2.8.0 h1:BdB+onItuO29g5ZLEz/HEwq9c4xBEM4GGqQc3kQ++js=
 github.com/gethinode/mod-utils/v2 v2.8.0/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
 github.com/gethinode/mod-utils/v2 v2.8.1 h1:u7sFbgJ5sBEMYC/GwcMRyjRAd5NxTjBnbld5b0V5n98=
